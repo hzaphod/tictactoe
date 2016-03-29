@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  $().click(function(event) {
+  $(.btn).click(function(event) {
+    $(this).text("X");
+  });
     event.preventDefault();
+});
